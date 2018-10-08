@@ -6772,17 +6772,33 @@ span.border-bold-dashed {
     margin-left: 20px;
     margin-right: 20px;
   }
+  .timeline-title {
+    font-size: 14px !important;
+  }
 }
 @media only screen and (min-width: 480px) and (max-width: 600px) {
   .xs-margin {
     margin-left: 70px;
     margin-right: 70px;
   }
+  .timeline-title {
+    font-size: 14px !important;
+  }
 }
 @media only screen and (min-width: 600px) and (max-width: 767px) {
   .xs-margin {
     margin-left: 120px;
     margin-right: 120px;
+  }
+  .timeline-title {
+    font-size: 14px !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+
+  .timeline-title {
+    font-size: 14px !important;
   }
 }
 
